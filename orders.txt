@@ -6,3 +6,4 @@ ORD5|Farrel|Setrika|2.0|8000.0|DITERIMA|Sudah Bayar|Diantar
 ORD6|yuni|Cuci Kering|10.0|60000.0|DITERIMA|Sudah Bayar|Diantar
 ORD7|jian|Bed Cover|1.0|10000.0|DITERIMA|Sudah Bayar|Diambil
 ORD8|shiva|Cuci Kering|10.0|60000.0|DITERIMA|Sudah Bayar|Diantar
+ORD9|supri|Cuci Basah|10.0|50000.0|DITERIMA|Sudah Bayar|Diantar

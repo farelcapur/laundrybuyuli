@@ -100,7 +100,7 @@ public class MenuPembeli {
                         }
 
                         if (layananDipilih == null) {
-                            System.out.println("❌ Kode layanan tidak ditemukan! Silakan coba lagi.");
+                            System.out.println("Kode layanan tidak ditemukan! Silakan coba lagi.");
                         }
                     } while (layananDipilih == null);
                     // BERAT
