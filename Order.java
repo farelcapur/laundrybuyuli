@@ -17,15 +17,16 @@ public class Order {
         this.status = StatusLaundry.DITERIMA;
         this.sudahBayar = false;
 
-        // 🔥 ambil harga dari service
+        // ambil harga dari service
         this.harga = service.hitungHarga(berat);
     }
 
+    @Override
     public String toString() {
         return idOrder + " | " + customer.nama + " | " + service.namaLayanan +
                 " | " + berat + "kg | Rp" + harga +
                 " | " + status +
-                " | Antar: " + (antarJemput ? "Ya" : "Tidak") +
-                " | Bayar: " + (sudahBayar ? "Lunas" : "Belum");
+                " | Antar: " + (antarJemput ? "Diantar" : "Diambil") +
+                " | Bayar: " + (sudahBayar ? "Sudah Bayar" : "Belum Bayar");
     }
 }

@@ -1,0 +1,38 @@
+📌 CARA MENJALANKAN
+
+👉 Run:
+
+MainLaundry.java
+📋 MENU
+
+1. Menu Pembeli
+
+Tambah customer
+Pesan laundry
+
+2. Lihat Order
+
+Menampilkan semua order
+
+3. Update Status
+
+Proses: DITERIMA → DICUCI → DISETRIKA → SELESAI
+
+4. Kirim Laundry
+
+Hanya bisa jika sudah selesai & dibayar
+
+5. Konfirmasi Pembayaran
+
+Mengubah status jadi lunas
+
+0. Exit
+
+Keluar program
+🎯 ALUR SINGKAT
+Tambah customer
+Pesan laundry
+Admin lihat order
+Update status
+Konfirmasi pembayaran
+Kirim laundry

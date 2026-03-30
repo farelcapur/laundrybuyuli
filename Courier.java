@@ -7,28 +7,29 @@ public class Courier {
         this.orders = orders;
     }
 
-    public void kirimOrder(int index) {
+    public boolean kirimOrder(int index) {
         Order o = orders.get(index);
 
-        // ❗ cek apakah sudah selesai
-        if (o.status != StatusLaundry.SELESAI) {
-            System.out.println("Laundry belum selesai! Tidak bisa dikirim.");
-            return;
-        }
-
-        // ❗ cek apakah sudah bayar
+        // cek pembayaran
         if (!o.sudahBayar) {
             System.out.println("Laundry belum dibayar! Harap lakukan pembayaran terlebih dahulu.");
-            return;
+            return false;
         }
 
         if (!o.antarJemput) {
             System.out.println("Order ini tidak menggunakan layanan antar jemput.");
-            return;
+            return false;
+        }
+        // ❗ cek apakah sudah selesai
+        if (o.status != StatusLaundry.SELESAI) {
+            System.out.println("Laundry belum selesai! Tidak bisa dikirim.");
+            return false;
         }
 
-        // ✅ baru boleh dikirim
-        o.status = StatusLaundry.DIKIRIM;
-        System.out.println("Laundry berhasil dikirim!");
+        // baru boleh dikirim
+        o.status = StatusLaundry.DIANTAR;
+        System.out.println("Laundry sedang diantar oleh kurir...");
+        return true;
+
     }
 }

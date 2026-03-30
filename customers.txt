@@ -1,0 +1,8 @@
+CUST1|rapip|09278373|jakarta
+CUST2|RAVA|93485034|KALIJUDAN
+CUST3|bhinar|1203923924|kliwon
+CUST4|rivan|92389424|kalijudan
+CUST5|Farrel|0038458349|Kiluawanm
+CUST6|yuni|997586746|hijau
+CUST7|jian|94535233|jiwulan
+CUST8|shiva|857347534|jiwan

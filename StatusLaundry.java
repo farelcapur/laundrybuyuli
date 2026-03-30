@@ -3,5 +3,5 @@ public enum StatusLaundry {
     DICUCI,
     DISETRIKA,
     SELESAI,
-    DIKIRIM
+    DIANTAR
 }

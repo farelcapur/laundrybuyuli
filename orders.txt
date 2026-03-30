@@ -1,0 +1,8 @@
+ORD1|rapip|Cuci + Setrika|1.0|7000.0|SELESAI|Sudah Bayar|Diambil
+ORD2|RAVA|Setrika|10.0|40000.0|DIANTAR|Sudah Bayar|Diantar
+ORD3|bhinar|Cuci Basah|1.0|5000.0|DICUCI|Sudah Bayar|Diantar
+ORD4|rivan|Cuci Kering|19.0|114000.0|DITERIMA|Sudah Bayar|Diantar
+ORD5|Farrel|Setrika|2.0|8000.0|DITERIMA|Sudah Bayar|Diantar
+ORD6|yuni|Cuci Kering|10.0|60000.0|DITERIMA|Sudah Bayar|Diantar
+ORD7|jian|Bed Cover|1.0|10000.0|DITERIMA|Sudah Bayar|Diambil
+ORD8|shiva|Cuci Kering|10.0|60000.0|DITERIMA|Sudah Bayar|Diantar
