@@ -29,7 +29,7 @@ Mengubah status jadi lunas
 0. Exit
 
 Keluar program
-🎯 ALUR SINGKAT
+===ALUR SINGKAT===
 Tambah customer
 Pesan laundry
 Admin lihat order
@@ -37,3 +37,8 @@ Update status
 Konfirmasi pembayaran
 Kirim laundry
 tempServ
+
+
+
+
+

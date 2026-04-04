@@ -1,0 +1,6 @@
+ORD1|rava|Cuci Basah|2.0|10000.0|DITERIMA|Belum Bayar|Diantar
+ORD2|rvan|Cuci Kering|1.0|6000.0|SELESAI|Sudah Bayar|Diambil
+ORD3|farrel|Setrika|2.0|8000.0|DITERIMA|Belum Bayar|Diantar
+ORD4|Rio|Cuci Basah|10.0|50000.0|DIANTAR|Sudah Bayar|Diantar
+ORD5|bhinar|Setrika|1.0|4000.0|DITERIMA|Belum Bayar|Diantar
+ORD6|raul|Karpet|2.0|16000.0|DITERIMA|Belum Bayar|Diambil
