@@ -7,3 +7,4 @@ CUST6|yuni|997586746|hijau
 CUST7|jian|94535233|jiwulan
 CUST8|shiva|857347534|jiwan
 CUST9|supri|1|jawa
+CUST10|riskia|08245734853|Kaliwaron

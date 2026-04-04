@@ -16,8 +16,8 @@ public class MainLaundry {
         services.add(new LaundryService("SRV5", "Karpet", 8000, 3));
         services.add(new LaundryService("SRV6", "Bed Cover", 10000, 3));
 
-        Admin admin = new Admin(customers, orders);
-        Courier kurir = new Courier(orders);
+        Admin admin = new Admin("ADM1", "Admin Utama", "08123456789", customers, orders);
+        Courier kurir = new Courier("CR1", "Kurir 1", "08129876543", orders);
         MenuPembeli.loadDataDariFile(orders, services, customers);
 
         int menu = -1; // penting!

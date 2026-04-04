@@ -1,16 +1,11 @@
 import java.util.ArrayList;
 
-public class Customer {
-    String id;
-    String nama;
-    String noHp;
+public class Customer extends User {
     String alamat;
     ArrayList<Order> riwayat = new ArrayList<>();
 
     public Customer(String id, String nama, String noHp, String alamat) {
-        this.id = id;
-        this.nama = nama;
-        this.noHp = noHp;
+        super(id, nama, noHp); // 🔥 ambil dari parent
         this.alamat = alamat;
     }
 
