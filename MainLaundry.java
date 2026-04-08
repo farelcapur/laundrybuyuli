@@ -7,7 +7,7 @@ public class MainLaundry { // class utama program
         Scanner sc = new Scanner(System.in); // membuat object Scanner untuk input
         ArrayList<Customer> customers = new ArrayList<>(); // list untuk menyimpan data customer
         ArrayList<Order> orders = new ArrayList<>(); // list untuk menyimpan data order
-        ArrayList<LaundryService> services = new ArrayList<>(); // list untuk layanan laundry
+        ArrayList<LaundryService> services = new ArrayList<>(); // list menyimpan layanan laundry
 
         // menambahkan data layanan laundry
         services.add(new LaundryService("SRV1", "Cuci Basah", 5000, 2));
@@ -62,6 +62,7 @@ public class MainLaundry { // class utama program
                 case 2:
                     loadCustomerDariFile(customers); // isi dulu list
 
+                    // cek list customer
                     if (customers.isEmpty()) {
                         System.out.println("Belum ada customer di sistem!");
                         break;
